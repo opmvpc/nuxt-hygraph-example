@@ -3,6 +3,9 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 export default defineNuxtConfig({
+  build: {
+    transpile: ["tslib"],
+  },
   devtools: { enabled: true },
   modules: ["@nuxtjs/apollo", "@nuxtjs/tailwindcss", "@nuxt/image"],
   apollo: {
