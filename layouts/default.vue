@@ -28,6 +28,7 @@
       name="twitter:description"
       content="Découverte Interactive de Pokémon | Pokedex Complet Alimenté par IA"
     />
+    <Meta name="theme-color" content="#DC143C" />
   </Head>
 
   <div class="min-h-screen bg-red-500">
