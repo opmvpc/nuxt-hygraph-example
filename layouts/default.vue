@@ -1,4 +1,8 @@
 <template>
+  <Head>
+    <Title>Pokedex IA</Title>
+    <Meta name="description" content="Pokedex généré par IA" />
+  </Head>z
   <div class="min-h-screen bg-red-500">
     <nav class="container mx-auto px-3 h-24 flex items-center mb-10">
       <NuxtLink to="/">
