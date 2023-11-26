@@ -28,11 +28,6 @@ pokemons.value = data.value.pokemons;
 </script>
 
 <template>
-  <Head>
-    <Title>Liste des Pokemon | Pokedex IA</Title>
-    <Meta property="og:title" content="Liste des Pokemon | Pokedex IA" />
-  </Head>
-
   <ul
     v-if="pokemons"
     class="grid gap-8 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6"
